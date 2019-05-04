@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaofeng.plus.example.mapper.CollectMapper">
+
+    <select id="sqlPage" resultType="com.xiaofeng.plus.example.entity.Collect">
+        SELECT * FROM example_collect where delete_type = #{deleteType}
+    </select>
+    <select id="sqlPage2" resultType="com.xiaofeng.plus.example.entity.Collect">
+        SELECT * FROM example_collect
+    </select>
+    <select id="sqlList" resultType="com.xiaofeng.plus.example.entity.Collect">
+        SELECT * FROM example_collect
+    </select>
+
+</mapper>
