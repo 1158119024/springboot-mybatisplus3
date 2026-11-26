@@ -23,3 +23,24 @@ mybatis-plus:
 #  global-config:
 #    db-column-underline: true # true 驼峰与下划线转换
 #    id-type: 2 # 全局配置id生成策略 0: 自增 ,2: 分布式长整型id, 3: uuid
+
+
+# jasypt加解密配置
+# jasypt加解密配置
+jasypt:
+  encryptor:
+    password: u68X7yML
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+
+#jasypt:
+#  encryptor:
+#    password: C3ED86C2FE1EDF168474F6B14F1C03AA
+
+#jasypt:
+#  encryptor:
+#    password: cQPDs8KgwrYUTUQMXXrDs8KOw7gXwqB1w6BdQsOTcAA
+
+#jasypt:
+#  encryptor:
+#    password: C3ED86C2FE1EDF168474F6B14F1C03AA
